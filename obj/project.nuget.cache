@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MxeRv8NeP6wXZCYacEgTNBe1Jzdati/XFeRhYhbq95KKA515PAVhhuVHdopqs1bU/JjsdknkvoIQifhoE1Ge6g==",
+  "dgSpecHash": "bPvv++tHDwbB9NABRwOa4xS7zUE5EWTzK5QxAdKAiWMDwURSfMRIXHGZvVf/hbHAqYlCfCwyXek18Q9a9HetPg==",
   "success": true,
-  "projectFilePath": "D:\\MAESTRIA\\automatizacion\\Examen1\\MultiApp\\WebApi\\WebApi.csproj",
+  "projectFilePath": "D:\\MAESTRIA\\automatizacion\\ExamenG\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\natym\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\natym\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
