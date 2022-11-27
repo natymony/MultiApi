@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_94d9d5411d324ff980549d41f5c5ae04 }}/natymony/imgmultiapi:${{ github.sha }}
+        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_94d9d5411d324ff980549d41f5c5ae04 }}/imgmultiapi:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -48,4 +48,4 @@ jobs:
         app-name: 'apiFacturas'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_523525812e6742608c8b2e6deb1e3935 }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_94d9d5411d324ff980549d41f5c5ae04 }}/natymony/imgmultiapi:${{ github.sha }}'
+        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_94d9d5411d324ff980549d41f5c5ae04 }}/imgmultiapi:${{ github.sha }}'
