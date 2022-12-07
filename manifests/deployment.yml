@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: multiapi 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: multiapi
+  template:
+    metadata:
+      labels:
+        app: multiapi 
+    spec:
+      containers:
+        - name: multiapi 
+          image: facturaciongn.azurecr.io/multiapi
+          ports:
+          - containerPort: 80
